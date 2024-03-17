@@ -5,11 +5,13 @@
 
 .container{
     position: absolute;
+    border: solid black 1px;
     border-radius: 1%;
     width: 30%;
     height: 70%;
     left: 32%;
     top: 5%;
+    padding: 10px;
 }
 
 .view{
@@ -30,30 +32,32 @@
 
 .operators-container{
     position: absolute;
-    width: 70px;
+    width: 50px;
     height: 100%;
-    left: 490px;
+    left: 400px;
     margin-top: 6%;
 }
 
 .operators-container button{
     position: relative;
-    text-align: center;
-    width: 100%;
-    height: 12%;
+    text-align: end;
+    width: 95%;
+    height: 15%;
     margin-top: 8%;
+    padding: 30px;
     font-size: 18px;
 }
 
 .number-container{
     position: absolute;
-    width: 86%;
+    width: 80%;
     margin-top: 5%;
 }
 
 .number-container button{
     margin: 1%;
-    padding: 51px;
+    margin-left: 7px;
+    padding: 38px;
     width: 21%;
     margin-top: 2%;
     border-radius: 2px;

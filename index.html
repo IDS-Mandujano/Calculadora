@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Notacion prefija</h1>
+        <div class="container-view">
+            <textarea name="" id="view"></textarea>
+        </div>
+        <div class="container-btns">
+            <table>
+                <tr>
+                    <td><input type="button" value="9"></td>
+                    <td><input type="button" value="8"></td>
+                    <td><input type="button" value="7"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="6"></td>
+                    <td><input type="button" value="5"></td>
+                    <td><input type="button" value="4"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="3"></td>
+                    <td><input type="button" value="2"></td>
+                    <td><input type="button" value="1"></td>
+                </tr>
+            </table>
+            <table class="operators">
+                <tr>
+                    <td><input type="button" value="÷"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="−"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="+"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="="></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <script type="module" src="/src/Controllers/index.js"></script>
+</body>
+</html>
